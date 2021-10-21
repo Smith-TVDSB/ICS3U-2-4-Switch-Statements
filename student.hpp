@@ -8,7 +8,7 @@ using namespace std;
 // implementations
 
 //Replace string function
-int exerciseOne()
+string exerciseOne()
 {
 	return "0"; // TODO: fix
 }
