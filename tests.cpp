@@ -11,17 +11,13 @@
 
 TEST_CASE("ExerciseOne") //Named ExerciseOne, tagged with example
 {
-    
-    //TODO: Set up tests
-    REQUIRE(replace(function()==Approx(5)); //within 1 of 5
-    REQUIRE(replace(function()==Approx(3).margin(5)); //within 5 units of 3
-    
-    //Checks keeps running if fails
-    CHECK(function()==0)
-
-    //Checks if a function throws an exception
-    REQUIRE_THROWS_WITH( openThePodBayDoors(), Contains( "afraid" ) && Contains( "can't do that" ) );
-        
+    CHECK(exerciseOne(7)=="James Bond");
+    CHECK(exerciseOne(700)=="Dnob Semaj");
+    CHECK(exerciseOne(117)=="John");
+    CHECK(exerciseOne(616)=="Natasha Romanoff");
+    CHECK(exerciseOne(17)=="Agent number 17 not found");
+    CHECK(exerciseOne(89)=="Agent number 89 not found");
+    CHECK(exerciseOne(32)=="Agent number 32 not found");
 }
 
 // Notes for teacher: 
